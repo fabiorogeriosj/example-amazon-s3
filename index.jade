@@ -1,0 +1,13 @@
+html
+  head
+    meta(charset='utf-8')
+    title Exemplo Amazon S3
+  body
+    p= erro
+    form(action="/", method="post", enctype="multipart/form-data")
+      <input type="file" name="foto">
+      <input type="submit" value="Enviar foto">
+    h1 Fotos
+    each foto in dados.Contents
+      img(src= url + foto.Key, style="height: 200px;")
+

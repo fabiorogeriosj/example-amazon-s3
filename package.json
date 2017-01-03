@@ -1,0 +1,17 @@
+{
+  "name": "exemplos3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.7.20",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "multer": "^1.2.1"
+  }
+}
